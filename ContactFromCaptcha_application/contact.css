@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    font-family: "roboto";
+    font-weight: bold;
+}   
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-container{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-family: "roboto";
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 30px; 
+    width: 100%;
+}  
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.captcha-code{
+    background-color: red;
+}
+#name{
+    width: 50%;
+    height: 20px;
+    margin: 20px;
+}
+#email  {
+    width: 50%;
+    height: 20px;
+    margin: 20px;                                                                     
+}
+
+#captcha{
+    width: 50%;
+    height: 20px;
+    margin: 20px; 
+
+}
+label{
+    margin: 10px;
+}
+
+form{
+    width: 33%;
+    box-shadow: 0px 4px 16px 0px cyan;
+    padding: 20px;
+}
+#captcha-code{
+    background-color: aqua;
+    height: 20vh;
+    padding: 10px;
+}
+#refresh-captcha{
+    background-color: black;
+    color: white;
+    padding-left: 30px;  
+    padding-right: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border-radius: 10px; 
+}
+#submit{
+    background-color: blue;
+    color: white;
+    font-family: "roboto";   
+    font-weight: bold;
+    padding-left: 30px;  
+    padding-right: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    border-radius: 10px; 
+}
