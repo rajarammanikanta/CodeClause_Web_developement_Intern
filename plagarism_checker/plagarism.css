@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+form {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
